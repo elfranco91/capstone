@@ -60,20 +60,52 @@ nav li:last-child {
   margin: 32px 24px;
 }
 .container2 {
-
   display:flex;
   width: 100%;
   height: 743px;
   border:2px solid black;
 
 }
-.container1-A {
+.container2-A {
   height: 100%;
   width:60%;
-
   background-color: yellow;
 }
+.orientation {
+  height: 100%;
+  width:40%;
+  border: 2px solid black;
+  background-color: blue;
 
+}
+.orientation-date {
+  width: 100%;
+  height:33%;
+  border: 2px solid black;
+}
+.campus {
+  width: 100%;
+  height:33%;
+  border: 2px solid black;
+}
+.guest {
+  width: 100%;
+  height:33%;
+  border: 2px solid black;
+}
+
+.container3 {
+  width: auto;
+  height: 933px;
+  background-color: grey;
+
+}
+
+.all-course {
+  height: 766px;
+  width:100%;
+  background-color: red;
+}
 .practice {
   display: flex;
   flex-direction: row;
@@ -108,34 +140,36 @@ padding-top: 150px;
   justify-content: center;
 }
 
-.orientation {
-  height: 100%;
-  width:40%;
-  border: 2px solid black;
-  background-color: blue;
 
-}
 .keep-practicing {
   width: 100%;
   height:33%;
   border: 2px solid black;
 }
-.orientation-date {
-  width: 100%;
-  height:33%;
-  border: 2px solid black;
+
+.start-learning {
+dispaly: block;
+height: 88px;
+width: 100%;
+background-color: white
 }
-.campus {
-  width: 100%;
-    height:33%;
-  border: 2px solid black;
+
+.container4{
+  width: auto;
+  height: 933px;
+  background-color: orange;
 }
-.guest {
-  width: 100%;
-  height:33%;
-  border: 2px solid black;
+
+.course-top {
+
 }
-.top-Bot {
+.course-btm {
+
+}
+.course-box {
+
+}
+.top-bot {
   margin-top: 32px;
   margin-bottom: 32px;
 
@@ -156,5 +190,10 @@ h3 {
 
 }
 h4 {
+
+}
+footer {
+  background-color: pink;
+  height: 100px;
 
 }
