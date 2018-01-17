@@ -45,30 +45,50 @@ nav li:last-child {
 }
 .banner {
   display:flex;
-  width: 100%
+  width: 100%;
   height: 764px;
   border:2px solid black;
 }
 .first-pic {
   border: 2px solid black;
-  width: 60%;
+  width: 50%;
   height: 700px;
   background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 32px 24px;
+}
+.container2 {
 
-
-
-
+  display:flex;
+  width: 100%;
+  height: 743px;
+  border:2px solid black;
 
 }
-.banner img {
+.container1-A {
+  height: 100%;
+  width:60%;
 
+  background-color: yellow;
+}
 
-
-
+.practice {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  width: 60%;
+  height: 466px;
+  background-image: url("../images/information-main.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 32px 24px;
+}
+.practice span{
+  display: block;
+  justify-content: flex-end;
 }
 .learn {
 padding-top: 150px;
@@ -88,7 +108,33 @@ padding-top: 150px;
   justify-content: center;
 }
 
+.orientation {
+  height: 100%;
+  width:40%;
+  border: 2px solid black;
+  background-color: blue;
 
+}
+.keep-practicing {
+  width: 100%;
+  height:33%;
+  border: 2px solid black;
+}
+.orientation-date {
+  width: 100%;
+  height:33%;
+  border: 2px solid black;
+}
+.campus {
+  width: 100%;
+    height:33%;
+  border: 2px solid black;
+}
+.guest {
+  width: 100%;
+  height:33%;
+  border: 2px solid black;
+}
 .top-Bot {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -104,6 +150,7 @@ margin-right: 24px;
 }
 h2{
   font-size: bold;
+  font-size: 1.5rem;
 }
 h3 {
 
