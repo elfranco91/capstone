@@ -5,7 +5,7 @@ header {
   display: flex;
   height: 64px;
   width:auto;
-  background-color: yellow;
+  background-color: white;
 
 }
 
@@ -47,7 +47,7 @@ nav li:last-child {
   display:flex;
   width: 100%;
   height: 764px;
-  border:2px solid black;
+  background-color: grey;
 }
 .first-pic {
   border: 2px solid black;
@@ -63,19 +63,20 @@ nav li:last-child {
   display:flex;
   width: 100%;
   height: 743px;
-  border:2px solid black;
+  background-color: white;
 
 }
 .container2-A {
   height: 100%;
   width:60%;
-  background-color: yellow;
+  background-color: inherit;
+
 }
 .orientation {
   height: 100%;
   width:40%;
   border: 2px solid black;
-  background-color: blue;
+  background-color: inherit;
 
 }
 .orientation-date {
@@ -104,7 +105,7 @@ nav li:last-child {
 .all-course {
   height: 766px;
   width:100%;
-  background-color: red;
+  background-color: light grey;
 }
 .practice {
   display: flex;
@@ -157,7 +158,7 @@ background-color: white
 .container4{
   width: auto;
   height: 933px;
-  background-color: orange;
+  background-color: white;
 }
 
 .course-top {
