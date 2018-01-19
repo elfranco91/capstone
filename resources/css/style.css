@@ -76,11 +76,13 @@ padding-top: 150px;
   height: 743px;
   background-color: white;
 
+
 }
 .container2-A {
   height: 100%;
   width: 60%;
   background-color: inherit;
+
 
 }
 .orientation {
@@ -155,9 +157,8 @@ padding-top: 150px;
 .practice {
   display: flex;
   flex-direction: row;
-  border: 2px solid black;
   width: 95%;
-  height: 466px;
+  height: 550px;
   background-image: url("../images/information-main.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -168,6 +169,7 @@ padding-top: 150px;
   display: block;
   justify-content: flex-end;
 }
+
 
 .start-btn {
   display: flex;
@@ -188,11 +190,7 @@ padding-top: 150px;
 }
 
 
-.keep-practicing {
-  width: 100%;
-  height:33%;
-  border: 2px solid black;
-}
+
 
 .start-learning {
 dispaly: block;
