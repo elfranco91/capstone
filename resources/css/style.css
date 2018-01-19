@@ -81,30 +81,31 @@ padding-top: 150px;
 
 }
 .orientation {
-  display:flex;
-  flex-direction: row;
 
   height: 100%;
   width:50%;
-  border: 2px solid black;
+
   background-color: inherit;
 
 }
 .orientation-date {
   width: 100%;
   height: auto;
-  background-image: url("../images/information-orientation.jpg");
-  background-repeat: no-repeat;
+
 }
 .campus {
   width: 100%;
-  height:auto;
-  border: 2px solid black;
+  height: auto;
+
+}
+.campus img {
+  width: auto;
 }
 .guest {
   width: 100%;
   height:auto;
-  border: 2px solid black;
+
+
 }
 
 .container3 {
