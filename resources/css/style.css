@@ -8,7 +8,10 @@ header {
   background-color: white;
 
 }
-
+a {
+   text-decoration: none;
+   font-size: 1.5rem;
+}
 .logo {
   display: flex;
   margin-left: 24px;
@@ -84,11 +87,11 @@ padding-top: 150px;
 
   height: 100%;
   width:40%;
-
   background-color: inherit;
 
 }
 .orientation-date {
+  display:inline-flex;
   width: 100%;
   height: auto;
 
@@ -100,6 +103,7 @@ padding-top: 150px;
 }
 
 .campus {
+  display:inline-flex;
   width: 100%;
   height: auto;
 }
@@ -107,10 +111,26 @@ padding-top: 150px;
   width: 35%;
   height: auto;
 }
+
+.campus-text {
+  display flex:
+  align-items: center;
 }
+.campus-text h2 {
+
+  padding-top: 60px
+
+}
+.campus-text h3 {
+
+  padding: 8px 8px;
+  text-align: center;
+}
+
 .guest {
+  display:inline-flex;
   width: 100%;
-  height:auto;
+  height: auto;
 }
 
 .guest img{
@@ -118,6 +138,7 @@ padding-top: 150px;
   height:auto;
 
 }
+
 
 .container3 {
   width: auto;
@@ -210,10 +231,11 @@ margin-right: 24px;
 }
 h2{
   font-size: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 h3 {
-
+  font-size: bold;
+  font-size: 1.5rem;
 }
 h4 {
 
