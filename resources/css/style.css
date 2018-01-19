@@ -76,14 +76,14 @@ padding-top: 150px;
 }
 .container2-A {
   height: 100%;
-  width: 50%;
+  width: 60%;
   background-color: inherit;
 
 }
 .orientation {
 
   height: 100%;
-  width:50%;
+  width:40%;
 
   background-color: inherit;
 
@@ -93,18 +93,29 @@ padding-top: 150px;
   height: auto;
 
 }
-.campus {
-  width: 100%;
+.orientation-date img{
+  width: 35%;
   height: auto;
 
 }
-.campus img {
-  width: auto;
+
+.campus {
+  width: 100%;
+  height: auto;
+}
+.campus img{
+  width: 35%;
+  height: auto;
+}
 }
 .guest {
   width: 100%;
   height:auto;
+}
 
+.guest img{
+  width: 35%;
+  height:auto;
 
 }
 
