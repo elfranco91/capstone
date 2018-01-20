@@ -86,8 +86,7 @@ padding-top: 150px;
 
 }
 .orientation {
-
-  height: 100%;
+  height: 90%;
   width:40%;
   background-color: inherit;
 
@@ -141,14 +140,6 @@ padding-top: 150px;
 
 }
 
-
-
-
-.all-course {
-  height: 766px;
-  width:5%;
-  background-color: light grey;
-}
 .practice {
   display: flex;
   flex-direction: row;
@@ -182,32 +173,49 @@ padding-top: 150px;
   padding-top: 0.5rem;
 }
 
-
-.start-learning {
-padding-top:
-display: flex;
-height: 88px;
-width: 100%;
-background-color: yellow;
-
-}
+/*container 3 start learning*/
 .container3 {
-  display:flex;
-
+  display:block;
+  flex-direction: row;
   width: auto;
-  height: 933px;
+  height: 1300px;
   background-color: grey;
 
 }
+.start-learning {
+display:block;
+height: 88px;
+width: 100%;
+padding-top: 2rem;
+padding-bottom: 2rem;
+background-color: yellow;
+text-align: center;
+display:table;
+
+}
+.start-learning span {
+ display:table-cell;
+ vertical-align:middle;
+ font-size: 1.5rem
+}
+
+
 
 .course-box {
-
+height: 1100px;
+margin: 0rem 4.5rem;
 }
 .course-top {
-
+display:flex;
+width: 100%;
+height: 50%;
+border: solid black;
 }
 .course-btm {
-
+  display:flex;
+  width: 100%;
+  height: 50%;
+  border: solid black;
 }
 .container4{
   width: auto;
@@ -215,8 +223,19 @@ background-color: yellow;
   background-color: white;
 }
 .top-bot {
+
   margin-top: 32px;
   margin-bottom: 32px;
+
+}
+.course-size {
+  height:auto;
+  flex: 1;
+  border: 1px solid black;
+}
+.course-size img {
+  width: 100%;
+  height: auto%;
 
 }
 .left-right {
