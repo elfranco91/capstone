@@ -68,7 +68,7 @@ nav li:last-child {
 }
 .learn {
 padding-top: 150px;
-
+/*container 2*/
 }
 .container2 {
   display:flex;
@@ -177,7 +177,7 @@ padding-top: 150px;
 .container3 {
   display:block;
   flex-direction: row;
-  width: auto;
+  width: 100%;
   height: 1300px;
   background-color: grey;
 
@@ -217,11 +217,7 @@ border: solid black;
   height: 50%;
   border: solid black;
 }
-.container4{
-  width: auto;
-  height: 933px;
-  background-color: white;
-}
+
 .top-bot {
 
   margin-top: 32px;
@@ -238,6 +234,50 @@ border: solid black;
   height: auto%;
 
 }
+.container4 {
+  width: 100%;
+  height: 1300px;
+  background-color: white;
+}
+
+.thesis {
+  display: block;
+  height: 88px;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: yellow;
+  text-align: center;
+  display:table;
+
+}
+
+.thesis span{
+  display:table-cell;
+  vertical-align:middle;
+  font-size: 1.5rem
+}
+.cont4-wrap {
+  display: flex;
+  height: 1200px;
+  width: 100%;
+  margin-left: 1.5rem;
+}
+.vids {
+height: auto;
+width: 60%;
+border: 1px solid black;
+}
+.vids video {
+  width: 100%
+  height:50%;
+}
+.fisma-wrap {
+  height: 100%;
+  width: 40%;
+  border: 1px solid black;
+}
+
 .left-right {
 margin-left: 24px;
 margin-right: 24px;
