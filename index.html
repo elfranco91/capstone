@@ -6,10 +6,12 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
       <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato|Source+Serif+Pro" rel="stylesheet">
   </head>
   <body>
     <!-- headder -->
-    <header>
+    <header class="left-right">
       <div class= "logo">
         <img src="resources/images/ic-logo.svg" alt="Problem loading page">
       </div>
@@ -26,23 +28,24 @@
       </div>
     </header>
     <!-- Banner -->
-    <div class="banner">
+    <div class="banner top-bot left-right">
     <!-- main Pic  -->
-      <div class ="first-pic">
+      <div class ="first-pic left-right">
+        <img src="resources/images/banner.jpg" alt="">
       </div>
       <!--learn section  -->
       <div class="learn">
-        <h1>Learn Something<br>New Everyday</h1>
-        <div class="ban-state"><h2>Lorem ipsum dolor sit amet consectetur adipiscing elit.</h2></div>
+        <h1>Learn Something New<br>Everyday</h1>
+        <div class="ban-state"><h2>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.</h2></div>
         <div class="start-btn">
           <span>Start Here</span>
         </div>
       </div>
     </div>
     <!--2nd section practice  -->
-    <div class="container2">
-      <div class="container2-A">
-        <div class="practice"></div>
+    <div class="container2 container2-A-back">
+      <div class="container2-A top-bot left-right">
+       <img src="resources/images/information-main.jpg" alt="">
         <div class="left-right">
             <h1>It doesnt hurt to keep practicing</h1>
             <p>For this project we will provide you with wireframes. A wireframe is a document which contains the positioning<br>of the elements on a page without specifying any other design information.<br>his allows designers and developers to focus on the flow of a site without getting distracted. </p>
@@ -91,7 +94,7 @@
           <div class="course-size">
             <img src="resources/images/course-software.jpg" alt="Problem loading Image">
             <div>
-              <h1>Software engineering</h1>
+              <h2>Software engineering</h2>
               <h2>Courses<h2>
               <span>Web Development</span>
             </div>
@@ -104,7 +107,7 @@
             <span>Web Development</span>
           </div>
           </div>
-          <div class="course-size">
+          <div class="course-size" id="margint-right">
             <img src="resources/images/course-design.jpg" alt="">
             <div>
               <h1>Software engineering</h1>
@@ -131,7 +134,7 @@
               <span>Web Development</span>
             </div>
           </div>
-          <div class="course-size">
+          <div class="course-size" id="margint-right">
             <img src="resources/images/course-marketing.jpg" alt="">
             <div>
               <h1>Software engineering</h1>
@@ -145,8 +148,9 @@
 
     <!-- 4th section thesis -->
     <div class="container4">
+      <!-- Thesis Exhibit -->
       <div class="thesis">
-        <span><h1>Thesis</h1></span>
+        <span><h1>Thesis Exhibit</h1></span>
       </div>
       <div class="cont4-wrap">
         <div class="vids">
@@ -155,13 +159,35 @@
             <source src="resources/video/thesis.ogg" type="video/ogg">
               Your browser does not support the video tag.
           </video>
+        <div class="vids-text">
+          <h2>Reimage urban</h2>
+          <p>This project is intended to be completed on your own computer. The resources above will help you build the final outcome.<br> There is no single, correct way to complete this project, so experiment and have fun!</p>
         </div>
-        <div class="fisma-wrap"></div>
+        </div>
+        <div class="fisma-wrap">
+          <div class="fisma">
+            <img src="resources/images/thesis-fisma.jpg" alt="">
+            <div class="cont4-text">
+            <h2>Fisma: Design and Prototype</h2>
+            <p>Designer showcase of new prototype product</p>
+            </div>
+          </div>
+          <div class="now-and-then">
+            <img src="resources/images/thesis-now-and-then.jpg" alt="">
+            <div class="cont4-text">
+            <h2>Fisma: Design and Prototype</h2>
+            <p>Designer showcase of new prototype product</p>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
 
   </body>
   <!-- Footer -->
-  <footer>Alan</footer>
+  <footer>
+    <h3>© Colmar Academy. All rights reserved</h3>
+    <div>Terms Privacy</div>
+  </footer>
 </html>
