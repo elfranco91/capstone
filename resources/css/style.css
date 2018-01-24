@@ -225,12 +225,14 @@ color:white;
 
 .mob {
 
-display:block;
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+height: 8rem;
 
 }
 .mob div {
   display: flex;
-  font-size: 1rem;
   background-color: grey;
   height:2rem;
 
