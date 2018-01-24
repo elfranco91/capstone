@@ -62,7 +62,7 @@ nav li:last-child {
   height: auto;
 }
 .first-pic {
-  flex:1;
+  width:100%;
   height: auto;
 
 
@@ -212,11 +212,7 @@ display: block;
 }
 .start-learning {
 display:block;
-height: 88px;
-width:100%;
-padding-top: 2rem;
-padding-bottom: 2rem;
-text-align: center;
+
 display:table;
 color:white;
 
@@ -227,14 +223,30 @@ color:white;
  font-size: 1.5rem
 }
 
+.mob {
 
+display:block;
+
+}
+.mob div {
+  display: flex;
+  font-size: 1rem;
+  background-color: grey;
+  height:2rem;
+
+}
+.mob div span {
+  display: flex;
+  margin: auto;
+  font-size: 1rem;
+}
 
 .course-box {
-height: 1000px;
-/*margin: 0rem 4.5rem;*/
-margin-left: 1.5rem;
+display:none;
 
-margin-bottom: 32px;;
+/*margin: 0rem 4.5rem;*/
+
+
 
 }
 .course-top {
@@ -452,6 +464,7 @@ footer div{
 .container2 {
     display: flex;
     width: 100%;
+    height:auto;
 }
 .container2-A {
   display:block;
@@ -500,6 +513,22 @@ footer div{
 
   }
 
+  .course-box {
+    display:block;
+    margin-bottom: 32px;
+    height: 1000px;
+    margin-left: 1.5rem;
 
+  }
+.mob {
+display:none;
 
+}
+.start-learning {
+  height: 88px;
+  width:100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
 }
