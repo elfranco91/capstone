@@ -5,7 +5,7 @@ html {
 header {
   display: flex;
   height: 64px;
-  width:auto;
+  flex-basis:auto;
   background-color: white;
 
 }
@@ -13,18 +13,24 @@ header {
 a {
    text-decoration: none;
    font-size: 1.5rem;
-   color: navy;
+   color: #0d1a26;
+   padding-left: 0.5rem;
+
+}
+a:hover{
+
+  color:   #cc9900;
 }
 .logo {
   display: flex;
   margin-left: 24px;
   align-items: center;
-  width:auto;
+  flex-basis:auto;
 }
 .colmar {
   display: flex;
   align-items: center;
-  width: 100%;
+  flex-basis:100%;
 
 }
 .flex-end {
@@ -43,6 +49,7 @@ a {
 nav li {
   display: flex;
   margin-right: 16px;
+  font-size: 1.5rem;
 }
 nav li:last-child {
   margin-right: 0px;
@@ -51,23 +58,18 @@ nav li:last-child {
     list-style-type: none;
 }
 .banner {
-  display:flex;
-  width: 100%;
+  flex-basis:auto;
   height: auto;
-  background-color: #98B8CB;
-
-
-
 }
 .first-pic {
-  flex:6;
-  height: 600px;
+  flex:1;
+  height: auto;
+
+
 }
 .first-pic img{
-  width: 100%;
+  flex-basis:auto;
   height: 100%;
-
-
 }
 
 .ban-state {
@@ -78,8 +80,8 @@ nav li:last-child {
 .learn {
 padding-top: 100px;
 padding-left: 1.5rem;
-color: #193F56;
-width: 40%;
+
+flex-basis:40%;
 
 
 }
@@ -94,9 +96,13 @@ width: 40%;
   width: 50%;
   height: 60px;
   opacity: 0.8;
+  transition-property: background-color;
+  transition-duration: 750ms;
 
+}
 
-
+.start-btn:hover {
+  background-color: #132639;
 }
 
 .start-btn span {
@@ -106,50 +112,61 @@ width: 40%;
   font-size: 2rem;
 
 }
+
 /*container 2*/
 
 .container2 {
-  display: flex;
+  display: block;
   width: 100%;
   height: auto;
   color: #193F56;
 
-
+}
+.container2-A {
+  display: none;
+}
+.container2-A img {
+  display: none;
 }
 
 
 .orientation {
-  height: auto;
-  width:40%;
-  background-color: inherit;
-  color: #193F56;
+  width: 100%
+  display:block
+  margint-right 1rem;
+  margin-left: 1rem;
 
 }
+
+
 .orientation-date {
-  display:inline-flex;
+  display: block;
+
+  height: auto%;
   width: 100%;
-  height: auto;
+
+
 
 }
 .orientation-date img{
-  width: 35%;
-  height: auto;
+  width: 100%;
+  height: 100%;
 
 }
 
 .campus {
-  display:inline-flex;
-  width: 100%;
+  display: block;
+  flex-basis:auto;
   height: auto;
 }
 .campus img{
-  width: 35%;
+  width: 100%;
   height: auto;
 }
 
 .campus-text {
   display flex:
-  align-items: center;
+  justify-content:start;
 }
 .campus-text h2 {
 
@@ -159,18 +176,18 @@ width: 40%;
 .campus-text h3 {
 
   padding: 8px 8px;
-  text-align: center;
+
 }
 
 .guest {
-  display:inline-flex;
-  width: 100%;
+display: block;
+  flex-basis:auto;
   height: auto;
 
 }
 
 .guest img{
-  width: 35%;
+  width: 100%;
   height:auto;
 
 }
@@ -188,16 +205,15 @@ width: 40%;
 /*container 3 start learning*/
 .container3 {
   display:block;
-  flex-direction: row;
-  width: 100%;
-  height: 1300px;
+  flex-basis:auto;
+  height: 1215px;
   background-color: #CEE8F4;
 
 }
 .start-learning {
 display:block;
 height: 88px;
-width: 100%;
+width:100%;
 padding-top: 2rem;
 padding-bottom: 2rem;
 text-align: center;
@@ -215,20 +231,22 @@ color:white;
 
 .course-box {
 height: 1000px;
-margin: 0rem 4.5rem;
+/*margin: 0rem 4.5rem;*/
+margin-left: 1.5rem;
+
 margin-bottom: 32px;;
 
 }
 .course-top {
 display:flex;
-width: 100%;
+flex-basis:auto;
 height: 50%;
 
 
 }
 .course-btm {
   display:flex;
-  width: 100%;
+  flex-basis:auto;
   height: 50%;
 }
 .top-bot {
@@ -245,6 +263,7 @@ height: 50%;
 
 
 }
+
 .course-size h1 {
   padding-top: 1rem;
   padding-left: 1rem;
@@ -256,16 +275,26 @@ height: 50%;
   padding-left: 1rem;
   padding-bottom: 1rem:
 }
+.course-size span
 #margint-right {
   margin-right: 0px;
 
 }
 
 .course-size img {
-  width: 100%;
-  height: auto%;
+  width:100%;
+  height: auto;
 
 }
+
+.course-size h3 {
+  font-size: bold;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: : 0.5rem;
+}
+
 /*contaiiner4*/
 .container4 {
   width: 100%;
@@ -292,12 +321,14 @@ height: 50%;
 .cont4-wrap {
   display: flex;
   height: auto;
-  width: 100%;
+  flex-basis:auto;
   margin-left: 1.5rem;
+
 }
 .vids {
 height: auto;
 width: 60%;
+margin-right: 24px;
 
 }
 
@@ -306,16 +337,19 @@ width: 60%;
   height:auto;
 }
 
-.vids-text {
-
+.vids-text p{
+margin-top: 0.5rem;
+margin-bottom: 2rem;
+font-size: 1.2rem;
 }
 
 .fisma-wrap {
   display: inline-flex;
   flex-direction: column;
   height: 100%;
-  width: 40%;
+    flex-basis:40%;
   background-color: #CEE8F4;
+  margin-right: 0.5rem;
 
 
 }
@@ -347,41 +381,50 @@ p {
   font-size: 1.2rem;
   font-family: 'Lato', sans-serif;}
  h1{
+   font-weight: bold;
   font-size: bold;
   font-size: 3.2rem;
   color: #193F56;
   font-family: 'Source Serif Pro', serif;
 }
 h2{
-  font-size: bold;
+  font-style: bold;
+    font-weight: bold;
   font-size: 2rem;
     color: #193F56;
 
   font-family: 'Lato', sans-serif;
 }
 h3 {
-  font-size: bold;
+  font-style: bold;
+  color: #193F56;
   font-size: 1.5rem;
   font-family: 'Lato', sans-serif;
 }
 h4 {
+  padding-left: 1rem;
   font-family: 'Lato', sans-serif;
+  color: #193F56;
+  font-size: 1.3rem;
+
+}
+.orientation h2 {
 
 }
 footer {
   display: flex;
   height: 100px;
-  width: 100%;
+  flex-basis:auto;
   box-sizing: border-box;
   padding-top: 1rem;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
   background-color: #98B8CB;
 
   color: white;
 }
 footer div{
   padding-right: 1.5rem;
-  margin-left:auto; margin-right:0;
+    margin-left:auto; margin-right:0;
 }
 .left-right p{
   margin: 1.5rem 0rem;
@@ -389,5 +432,74 @@ footer div{
 }
 .left-right h1 {
   margin-top: 2rem
+
+}
+@media (min-width: 400px) {
+  .banner {
+      display:flex;
+      background-color: #98B8CB
+
+  }
+  .first-pic {
+    flex:6;
+    height: 600px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+  }
+.container2 {
+    display: flex;
+    width: 100%;
+}
+.container2-A {
+  display:block;
+  height:auto;
+  flex-basis:60%;
+}
+.container2-A img {
+  display: block;
+  width: 100%;
+  height: auto%;
+}
+
+.orientation{
+  display:block:
+  height: auto;
+  width: 40%;
+  background-color: inherit;
+  color: #193F56;
+}
+.orientation-date{
+  display:inline-flex;
+}
+.orientation-date img{
+  width: 35%;
+  height: auto;
+
+}
+.campus{
+  display:inline-flex;
+
+}
+.campus img{
+  width: 35%;
+  height: auto;
+
+}
+
+.guest {
+
+    display:inline-flex;
+  }
+
+  .guest img{
+    width: 35%;
+    height: auto;
+
+  }
+
+
 
 }
