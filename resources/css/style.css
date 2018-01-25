@@ -243,8 +243,9 @@ height: 14rem;
 
 .course-box {
 display:none;
+
+
 }
-/*margin: 0rem 4.5rem;*/
 
 
 .course-top {
@@ -313,13 +314,8 @@ height: 50%;
 }
 
 .thesis {
-  display: block;
-  height: 5.5rem;
-  width: 100%;
+  padding-bottom: 1rem;
   padding-top: 2rem;
-  padding-bottom: 2rem;
-  text-align: center;
-  display:table;
 
 }
 
@@ -329,7 +325,10 @@ height: 50%;
   font-size: 1.5rem
 }
 .cont4-wrap {
-display:none;
+  display: flex;
+  height: auto;
+  flex-basis:auto;
+  margin-left: 1.5rem;
 
 }
 .vids {
@@ -351,12 +350,7 @@ font-size: 1.2rem;
 }
 
 .fisma-wrap {
-  display: inline-flex;
-  flex-direction: column;
-  height: 100%;
-  flex-basis:40%;
-  background-color: #CEE8F4;
-  margin-right: 0.5rem;
+display: none;
 
 
 }
@@ -376,6 +370,7 @@ height: auto;
 width: auto;
 margin-left: 1rem;
 }
+
 .cont4-text p {
   padding-top: 1.5rem;
 }
@@ -508,6 +503,7 @@ footer div{
     margin-bottom: 2rem;
     height: 1000px;
     margin-left: 1.5rem;
+
   }
 .mob {
 display:none;
@@ -524,13 +520,25 @@ display:none;
   vertical-align:middle;
   font-size: 1.5rem;
 }
-.cont4-wrap {
- display: flex;
- height: auto;
- flex-basis:auto;
- margin-left: 1.5rem;
+
+.fisma-wrap {
+  display: inline-flex;
+  flex-direction: column;
+  height: 100%;
+  flex-basis:40%;
+  background-color: #CEE8F4;
+  margin-right: 0.5rem;
  }
 .thesis {
+  display: block;
+  height: 5.5rem;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  display:table;
+}
+.vids-text {
 
 }
 }
