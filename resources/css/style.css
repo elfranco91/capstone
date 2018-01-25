@@ -212,15 +212,16 @@ display: block;
 }
 .start-learning {
 display:block;
-
 display:table;
-color:white;
+font-size: 0.5rem;
+padding-top: 2rem;
+padding-bottom: 1rem;
 
 }
 .start-learning span {
- display:table-cell;
- vertical-align:middle;
- font-size: 1.5rem
+
+  text-align: center;
+
 }
 
 .mob {
@@ -320,7 +321,7 @@ height: 50%;
   display: block;
   height: 88px;
   width: 100%;
-  padding-top: 2rem;
+
   padding-bottom: 2rem;
   text-align: center;
   display:table;
@@ -333,10 +334,7 @@ height: 50%;
   font-size: 1.5rem
 }
 .cont4-wrap {
-  display: flex;
-  height: auto;
-  flex-basis:auto;
-  margin-left: 1.5rem;
+display:none;
 
 }
 .vids {
@@ -520,8 +518,8 @@ footer div{
     margin-bottom: 32px;
     height: 1000px;
     margin-left: 1.5rem;
-
   }
+
 .mob {
 display:none;
 
@@ -532,5 +530,20 @@ display:none;
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
+}
+.start-learning span {
+  display:table-cell;
+  vertical-align:middle;
+  font-size: 1.5rem;
+}
+
+.cont4-wrap {
+ display: flex;
+ height: auto;
+ flex-basis:auto;
+ margin-left: 1.5rem;
+ }
+.thesis {
+
 }
 }
