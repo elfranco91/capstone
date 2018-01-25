@@ -105,7 +105,6 @@ nav li:last-child {
   background-color:#193F56;
   color: white;
   flex-basis: auto;
-
   height: 3.75rem;
   opacity: 0.8;
   transition-property: background-color;
