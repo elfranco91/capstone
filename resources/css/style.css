@@ -75,7 +75,7 @@ nav li:last-child {
 
 .learn {
   padding-top: 2rem;
-  width: 100%;
+  width: auto;
   padding-left: 1rem;
   padding-left: 1rem;
   background-color: #98B8CB;
@@ -104,7 +104,7 @@ nav li:last-child {
   display: flex;
   background-color:#193F56;
   color: white;
-  width: 100%;
+  flex-basis: auto;
 
   height: 3.75rem;
   opacity: 0.8;
