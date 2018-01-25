@@ -4,7 +4,7 @@ html {
 }
 header {
   display: flex;
-  height: 64px;
+  height: 4rem;
   flex-basis:auto;
   background-color: white;
 
@@ -23,7 +23,7 @@ a:hover{
 }
 .logo {
   display: flex;
-  margin-left: 24px;
+  margin-left: 1.5rem;
   align-items: center;
   flex-basis:auto;
 }
@@ -41,18 +41,17 @@ a:hover{
 
   display: flex;
   White-space: nowrap;
-
   justify-content: flex-end;
 
 }
 
 nav li {
   display: flex;
-  margin-right: 16px;
+  margin-right: 1rem;
   font-size: 1.5rem;
 }
 nav li:last-child {
-  margin-right: 0px;
+  margin-right: 0rem;
 }
 .flex-end li {
     list-style-type: none;
@@ -80,8 +79,7 @@ nav li:last-child {
 .learn {
 padding-top: 100px;
 padding-left: 1.5rem;
-
-flex-basis:40%;
+width: 40%;
 
 
 }
@@ -94,7 +92,7 @@ flex-basis:40%;
   background-color:#193F56;
   color: white;
   width: 50%;
-  height: 60px;
+  height: 3.75;
   opacity: 0.8;
   transition-property: background-color;
   transition-duration: 750ms;
@@ -141,7 +139,6 @@ flex-basis:40%;
 
 .orientation-date {
   display: block;
-
   height: auto%;
   width: 100%;
 
@@ -150,14 +147,14 @@ flex-basis:40%;
 }
 .orientation-date img{
   width: 100%;
-  height: 100%;
+  height: auto;
 
 }
 
 .campus {
   display: block;
-  flex-basis:auto;
   height: auto;
+  width: 100%;
 }
 .campus img{
   width: 100%;
@@ -170,19 +167,19 @@ flex-basis:40%;
 }
 .campus-text h2 {
 
-  padding-top: 60px
+  padding-top: 3.75rem;
 
 }
 .campus-text h3 {
 
-  padding: 8px 8px;
+  padding: 0.5rem 0.5rem;
 
 }
 
 .guest {
 display: block;
-  flex-basis:auto;
-  height: auto;
+width: 100%;
+height: auto;
 
 }
 
@@ -206,7 +203,7 @@ display: block;
 .container3 {
   display:block;
   flex-basis:auto;
-  height: 1215px;
+  height: 75.9356rem;
   background-color: #CEE8F4;
 
 }
@@ -246,12 +243,10 @@ height: 14rem;
 
 .course-box {
 display:none;
-
+}
 /*margin: 0rem 4.5rem;*/
 
 
-
-}
 .course-top {
 display:flex;
 flex-basis:auto;
@@ -266,8 +261,8 @@ height: 50%;
 }
 .top-bot {
 
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .course-size {
   height:auto;
@@ -292,7 +287,7 @@ height: 50%;
 }
 .course-size span
 #margint-right {
-  margin-right: 0px;
+  margin-right: 0rem;
 
 }
 
@@ -319,7 +314,7 @@ height: 50%;
 
 .thesis {
   display: block;
-  height: 88px;
+  height: 5.5rem;
   width: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -340,7 +335,7 @@ display:none;
 .vids {
 height: auto;
 width: 60%;
-margin-right: 24px;
+margin-right: 1.5rem;
 
 }
 
@@ -359,7 +354,7 @@ font-size: 1.2rem;
   display: inline-flex;
   flex-direction: column;
   height: 100%;
-    flex-basis:40%;
+  flex-basis:40%;
   background-color: #CEE8F4;
   margin-right: 0.5rem;
 
@@ -386,8 +381,8 @@ margin-left: 1rem;
 }
 
 .left-right {
-margin-left: 24px;
-margin-right: 24px;
+margin-left: 1.5rem;
+margin-right: 1.5rem;
 }
 p {
   font-size: 1.2rem;
@@ -425,7 +420,7 @@ h4 {
 }
 footer {
   display: flex;
-  height: 100px;
+  height: 6.25rem;
   flex-basis:auto;
   box-sizing: border-box;
   padding-top: 1rem;
@@ -448,17 +443,16 @@ footer div{
 }
 @media (min-width: 400px) {
   .banner {
-      display:flex;
-      background-color: #98B8CB
-
+    display:flex;
+    background-color: #98B8CB
   }
   .first-pic {
     flex:6;
-    height: 600px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    height: 37.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 
   }
 .container2 {
@@ -499,30 +493,24 @@ footer div{
 .campus img{
   width: 35%;
   height: auto;
-
 }
-
 .guest {
-
     display:inline-flex;
   }
-
-  .guest img{
+  .guest img
+  {
     width: 35%;
     height: auto;
-
   }
 
   .course-box {
     display:block;
-
+    margin-bottom: 2rem;
     height: 1000px;
     margin-left: 1.5rem;
   }
-
 .mob {
 display:none;
-
 }
 .start-learning {
   height: 88px;
@@ -536,7 +524,6 @@ display:none;
   vertical-align:middle;
   font-size: 1.5rem;
 }
-
 .cont4-wrap {
  display: flex;
  height: auto;
