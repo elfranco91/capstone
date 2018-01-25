@@ -13,7 +13,7 @@ header {
 a {
    text-decoration: none;
    font-size: 1.5rem;
-   color: #0d1a26;
+   color: green;
    padding-left: 0.5rem;
 
 }
@@ -77,7 +77,9 @@ nav li:last-child {
   padding-top: 2rem;
   width: 100%;
   padding-left: 1rem;
+  padding-left: 1rem;
   background-color: #98B8CB;
+  padding-bottom: 2rem;
 }
 
 .learn h1 {
@@ -97,16 +99,14 @@ nav li:last-child {
   color: white;
 
 }
-
+/*start button media at 597*/
 .start-btn {
   display: flex;
   background-color:#193F56;
   color: white;
   width: 100%;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 2rem;
-  height: 3.75;
+
+  height: 3.75rem;
   opacity: 0.8;
   transition-property: background-color;
   transition-duration: 750ms;
@@ -386,6 +386,7 @@ display: none;
 height: auto;
 width: auto;
 margin-left: 1rem;
+padding-top: 3rem;
 }
 
 .cont4-text p {
@@ -599,7 +600,7 @@ width: 40%;
   background-color:#193F56;
   color: white;
   width: 50%;
-  height: 3.75;
+  height: 3.75rem;
   opacity: 0.8;
   transition-property: background-color;
   transition-duration: 750ms;
