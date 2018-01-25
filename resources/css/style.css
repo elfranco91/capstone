@@ -71,32 +71,45 @@ nav li:last-child {
   height: 100%;
 }
 
+
+
+.learn {
+  padding-top: 2rem;
+  width: 100%;
+  padding-left: 1rem;
+  background-color: #98B8CB;
+}
+
+.learn h1 {
+  font-size: 2.5rem;
+}
+
 .ban-state {
-  margin-top: 1.4rem;
-  margin-bottom: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 
 }
-.learn {
-padding-top: 100px;
-padding-left: 1.5rem;
-width: 40%;
 
-
+.ban-state h2 {
+  font-size: 1rem;
 }
 .learn h2{
   color: white;
+
 }
 
 .start-btn {
   display: flex;
   background-color:#193F56;
   color: white;
-  width: 50%;
+  width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
   height: 3.75;
   opacity: 0.8;
   transition-property: background-color;
   transition-duration: 750ms;
-
 }
 
 .start-btn:hover {
@@ -202,8 +215,8 @@ height: auto;
 /*container 3 start learning*/
 .container3 {
   display:block;
-  flex-basis:auto;
-  height: 75.9356rem;
+  with:100%;
+  height: 12000;
   background-color: #CEE8F4;
 
 }
@@ -332,8 +345,8 @@ height: 50%;
 
 }
 .vids {
+width: 100%;
 height: auto;
-width: 60%;
 margin-right: 1.5rem;
 
 }
@@ -395,9 +408,9 @@ p {
 }
 h2{
   font-style: bold;
-    font-weight: bold;
+  font-weight: bold;
   font-size: 2rem;
-    color: #193F56;
+  color: #193F56;
 
   font-family: 'Lato', sans-serif;
 }
@@ -417,20 +430,26 @@ h4 {
 .orientation h2 {
 
 }
-footer {
-  display: flex;
-  height: 6.25rem;
-  flex-basis:auto;
-  box-sizing: border-box;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  background-color: #98B8CB;
 
-  color: white;
+footer {
+display: flex;
+height: 6.25rem;
+flex-basis:auto;
+box-sizing: border-box;
+padding-top: 1rem;
+padding-left: 1rem;
+background-color: #98B8CB;
+color: white;
 }
 footer div{
-  padding-right: 1.5rem;
-    margin-left:auto; margin-right:0;
+display: none;
+flex-wrap: nowrap;
+font-size: 2rem;
+}
+footer h3 {
+  font-size: 1rem;
+  padding-top:2.5rem;
+  padding-bottom: 1rem;
 }
 .left-right p{
   margin: 1.5rem 0rem;
@@ -443,7 +462,7 @@ footer div{
 @media (min-width: 400px) {
   .banner {
     display:flex;
-    background-color: #98B8CB
+    background-color: #98B8CB;
   }
   .first-pic {
     flex:6;
@@ -501,11 +520,9 @@ footer div{
     width: 35%;
     height: auto;
   }
-
   .course-box {
     display:block;
     margin-bottom: 2rem;
-    height: 1000px;
     margin-left: 1.5rem;
 
   }
@@ -513,7 +530,7 @@ footer div{
 display:none;
 }
 .start-learning {
-  height: 88px;
+  height: 5.5px;
   width:100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -542,9 +559,49 @@ display:none;
   text-align: center;
   display:table;
 }
+.vids {
+  width: 60%;
+}
 .vids-text {
     display: flex;
     flex-direction: column;
+}
 
+footer div {
+  display: flex;
+  padding-right: 1.5rem;
+  margin-left:auto; margin-right:0;
+}
+footer h3 {
+
+  font-size: 1rem;
+}
+.learn {
+padding-top: 6.25rem;
+padding-left: 1.5rem;
+width: 40%;
+}
+
+
+.ban-state {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+.ban-state h2 {
+  font-size: 2rem;
+}
+
+.learn h1 {
+  font-size: 3.2rem;
+}
+.start-btn {
+  display: flex;
+  background-color:#193F56;
+  color: white;
+  width: 50%;
+  height: 3.75;
+  opacity: 0.8;
+  transition-property: background-color;
+  transition-duration: 750ms;
 }
 }
