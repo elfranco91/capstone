@@ -135,6 +135,9 @@ nav li {
   display: none;
 }
 
+.mobile-img {
+  width: 100%;
+}
 
 .orientation {
   width: 100%
@@ -150,24 +153,29 @@ nav li {
   height: auto%;
   width: 100%;
 
-
-
 }
-.orientation-date img{
-  width: 100%;
-  height: auto;
-
-}
-
 .campus {
   display: block;
   height: auto;
   width: 100%;
 }
-.campus img{
-  width: 100%;
-  height: auto;
+.guest {
+display: block;
+width: 100%;
+height: auto;
+
 }
+.ori-img{
+  display:none;
+
+}
+.ori-img-mob {
+  display: block;
+  with: 100%;
+
+}
+
+
 
 .campus-text {
   display flex:
@@ -184,18 +192,8 @@ nav li {
 
 }
 
-.guest {
-display: block;
-width: 100%;
-height: auto;
 
-}
 
-.guest img{
-  width: 100%;
-  height:auto;
-
-}
 .campus-text h3{
   line-height: 1.5rem;
 }
@@ -423,9 +421,6 @@ h4 {
   font-size: 1.3rem;
 
 }
-.orientation h2 {
-
-}
 
 footer {
 display: flex;
@@ -516,27 +511,25 @@ footer h3 {
 .orientation-date{
   display:inline-flex;
 }
-.orientation-date img{
-  width: 35%;
-  height: auto;
 
-}
 .campus{
   display:inline-flex;
 
 }
-.campus img{
-  width: 35%;
-  height: auto;
-}
+
 .guest {
     display:inline-flex;
   }
-  .guest img
-  {
-    width: 35%;
-    height: auto;
-  }
+
+.ori-img{
+  display:inline-flex;
+  width: 35%;
+  height: auto;
+}
+.ori-img-mob {
+  display: none;
+}
+
   .course-box {
     display:block;
     margin-bottom: 2rem;
@@ -621,7 +614,6 @@ width: 40%;
   transition-property: background-color;
   transition-duration: 750ms;
 }
-.logo: {
 
-}
+
 }
