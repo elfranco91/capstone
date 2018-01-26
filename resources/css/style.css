@@ -22,17 +22,20 @@ a:hover{
   color:   #cc9900;
 }
 .logo {
-  display: flex;
-  margin-left: 1.5rem;
-  align-items: center;
-  flex-basis:auto;
-}
-.colmar {
-  display: flex;
-  align-items: center;
-  flex-basis:100%;
+  display: none;
 
 }
+.mob-logo {
+  display:flex;
+  flex-direction: row;
+   align-items: center;
+   flex-basis:100%;
+   justify-content: space-between;
+}
+.colmar {
+  display: none;
+}
+
 .flex-end {
   display: flex;
   align-items: center;
@@ -46,16 +49,9 @@ a:hover{
 }
 
 nav li {
-  display: flex;
-  margin-right: 1rem;
-  font-size: 1.5rem;
+  display: none;
 }
-nav li:last-child {
-  margin-right: 0rem;
-}
-.flex-end li {
-    list-style-type: none;
-}
+
 .banner {
   width: 100%;
   height: auto;
@@ -464,6 +460,27 @@ footer h3 {
     display:flex;
     background-color: #98B8CB;
   }
+  .mob-logo {
+    display:none;
+
+  }
+  .colmar {
+    display: flexx;
+    align-items: center;
+    flex-basis:100%;
+
+  }
+  nav li {
+    display: flex;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+  nav li:last-child {
+    margin-right: 0rem;
+  }
+  .flex-end li {
+      list-style-type: none;
+  }
   .first-pic {
     flex:6;
     height: 37.5rem;
@@ -603,5 +620,8 @@ width: 40%;
   opacity: 0.8;
   transition-property: background-color;
   transition-duration: 750ms;
+}
+.logo: {
+
 }
 }
