@@ -435,6 +435,11 @@ footer h3 {
 
   }
   /*Course Box*/
+
+  .course-box {
+  display:block;
+  margin: 0rem 4.5rem;
+}
 .container2 {
     display: flex;
     width: 100%;
