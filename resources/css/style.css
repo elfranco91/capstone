@@ -53,7 +53,7 @@ nav li {
 }
 
 .banner {
-  width: 100%;
+
   height: auto;
 }
 .first-pic {
@@ -100,12 +100,12 @@ nav li {
   display: flex;
   background-color:#193F56;
   color: white;
-  width: 100%;
+  width: auto;
   height: 3.75rem;
   opacity: 0.8;
   transition-property: background-color;
   transition-duration: 750ms;
-  padding-right: 1rem;
+  margin-right: 1rem;
 }
 
 .start-btn:hover {
@@ -124,9 +124,11 @@ nav li {
 
 .container2 {
   display: block;
-  width: 100%;
+  width: auto;
   height: auto;
   color: #193F56;
+  margin-right: 1rem;
+  margin-left: 1rem;
 
 }
 .container2-A {
@@ -141,18 +143,17 @@ nav li {
 }
 
 .orientation {
-  width: 100%
-  display:block
-  margint-right 1rem;
-  margin-left: 1rem;
+  width: 100%;
+  display:block;
+
 
 }
 
 
 .orientation-date {
   display: block;
-  height: auto%;
-  width: 100%;
+  height: auto;
+  width :100%;
 
 }
 .campus {
@@ -172,7 +173,8 @@ height: auto;
 }
 .ori-img-mob {
   display: block;
-  flex-basis: auto;
+  width:inherit;
+
 
 }
 
@@ -192,8 +194,6 @@ height: auto;
   padding: 0.5rem 0.5rem;
 
 }
-
-
 
 .campus-text h3{
   line-height: 1.5rem;
@@ -238,7 +238,7 @@ height: 14rem;
 }
 .mob div {
   display: flex;
-  background-color: grey;
+  background-color: #d3d3d3;
   height:2rem;
 
 }
